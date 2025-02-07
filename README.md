@@ -64,7 +64,7 @@ Update the `.env` file with your database, queue, and other configuration settin
 ``` bash
    php artisan migrate
 ```
-5. Start the development server:
+6. Start the development server:
 ``` bash
    php artisan serve
 ```
