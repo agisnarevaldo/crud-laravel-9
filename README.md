@@ -47,24 +47,24 @@ To work on this project, ensure you have the following tools installed on your l
    git clone <repository-url>
    cd <repository-folder>
 ```
-1. Install dependencies using Composer:
+2. Install dependencies using Composer:
 ``` bash
    composer install
 ```
-1. Copy the example environment file and configure it:
+3. Copy the example environment file and configure it:
 ``` bash
    cp .env.example .env
 ```
 Update the `.env` file with your database, queue, and other configuration settings.
-1. Generate the application key:
+4. Generate the application key:
 ``` bash
    php artisan key:generate
 ```
-1. Migrate the database:
+5. Migrate the database:
 ``` bash
    php artisan migrate
 ```
-1. Start the development server:
+5. Start the development server:
 ``` bash
    php artisan serve
 ```
