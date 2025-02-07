@@ -55,7 +55,7 @@ To work on this project, ensure you have the following tools installed on your l
 ``` bash
    cp .env.example .env
 ```
-Update the `.env` file with your database, queue, and other configuration settings.
+Update the `.env` file with your database, queue, and other configuration settings. <br>
 4. Generate the application key:
 ``` bash
    php artisan key:generate
